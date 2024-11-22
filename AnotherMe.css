@@ -1,0 +1,115 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html
+{
+    font-size: 10px;
+}
+body
+{
+
+    background-image: url(./images/6a2ec29b614cd5aad9269cf2ee2e5a08.jpg);
+     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container
+{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 3rem;
+    margin-top: 4rem;
+    text-align: center;
+}
+h1
+{
+    color:#87CEEB;
+    font-size: 7rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    font-family:"Times New Roman";
+}
+h2
+{
+    color:black;
+    font-size: 3rem;
+    font-weight: 300;
+}
+.image
+{
+    max-width: 20%;
+    padding: 15px;
+    display: block;
+    margin:  auto;
+}
+p
+{
+    font-size: 2rem;
+    color:black;
+    line-height: 30px;
+    text-align: justify;
+    font-family: 'Roboto' sans-serif;
+}
+main
+{
+    margin: 0 auto;
+}
+.btn {
+  text-align: center;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color:#87CEEB;
+  color: white;
+  text-decoration: none;
+   border-radius: 25px;
+   width: 200px;
+}
+.container_btn 
+{
+    margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  display: flex;
+  gap: 10px;
+}
+footer {
+    padding: 20px 0;
+    text-align: center;
+}
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px; /* Espace entre l'icône et le texte */
+}
+
+.btn-email
+ {
+    display: flex;
+    align-items: center;
+}
+
+.btn-email:hover
+{
+    background-color: #000; /* Noir pour GitHub au survol */
+    color: #fff;
+}
+
+.btn-github {
+    display: flex;
+    align-items: center;
+}
+
+.btn-github:hover {
+    background-color: #000; /* Noir pour GitHub au survol */
+    color: #fff;
+}
+.btn-github:hover .icon
+ {
+    filter: brightness(0) invert(1); /* Rendra l'icône blanche pour contraste */
+}
